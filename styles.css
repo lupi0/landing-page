@@ -5,6 +5,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 .square {
     width: 163px;
     height: 163px;
@@ -34,6 +38,7 @@
 .some{
     font-family: 'Roboto', sans-serif;
     font: bolder;
+    font-size: 36px;
 }
 
 .footer{
@@ -74,11 +79,12 @@
     color: white;
     flex-direction: column;
     list-style-type: none;
+    width: 100%;
 }
 nav {
     background-color: #1f2937;
-    display: flex;
-    list-style-type: none;
+    /* display: flex; */
+    
 
 
 }
@@ -117,3 +123,59 @@ nav {
     flex-direction: column;
     align-items: center;
 }
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-grow: 1;
+    margin-right: 300px;
+    flex: auto;
+
+}
+
+.push-left{
+    margin-right: auto;
+    margin-left: 270px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+    width: 100%;
+    gap: 50px;
+}
+
+.bottom h1{
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.main_title{
+    margin-bottom: 0;
+    width: 520px;
+}
+
+img{
+    width: 500px;
+    height: 200px;
+}
+
+.right_box{
+    display: flex;
+    justify-content: flex-start;
+    flex: auto;
+    width: 100%;
+    margin-right: 250px;
+    align-items: center;
+}
+
+.left_box{
+    width: 550px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
